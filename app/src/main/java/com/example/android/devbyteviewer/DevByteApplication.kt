@@ -21,8 +21,6 @@ import android.app.Application
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
-import androidx.work.WorkerParameters
-import com.example.android.devbyteviewer.work.RefreshDataWork
 import com.example.android.devbyteviewer.work.RefreshDataWorker
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
